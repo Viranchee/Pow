@@ -32,5 +32,7 @@
 	<true/>
 	<key>NSSupportsSuddenTermination</key>
 	<true/>
+	<key>user</key>
+	<string>F1</string>
 </dict>
 </plist>
