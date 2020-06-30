@@ -59,10 +59,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let udef = UserDefaults()
     dump(udef.value(forKey: "test"))
     udef.set("F1", forKey: "test")
-    sv.associatedUserDefaultsKey = "test"
-    MASShortcutBinder.shared()?.bindShortcut(withDefaultsKey: "test") {
+    dump(sv)
+//    sv.associatedUserDefaultsKey = "test"
+//    MASShortcutBinder.shared()?.bindShortcut(withDefaultsKey: "test") {
       print("I was called")
-    }
+//    }
     pow(with: self.window)
     
   }
